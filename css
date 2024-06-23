@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Menu HTML/coffee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.menu p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.menu h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.menu ul li span {
+    margin-left: 10px;
+}
