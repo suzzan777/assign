@@ -1,10 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('Menu HTML/coffee.jpg');
+    background: url('coffee.jpg') no-repeat center center fixed; 
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100%;
 }
 
 .container {
